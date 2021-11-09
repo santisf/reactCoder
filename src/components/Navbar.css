@@ -1,0 +1,51 @@
+.navbar{
+
+    background-color: #3299a8;
+    color: #fff;
+    
+}
+
+.navbar-menu {
+
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+
+}
+.text-title {
+
+    font-size:25px;
+    font-weight: 600;
+
+}
+.navbar-item {
+
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.navbar-item:hover{
+
+    background-color:#fff ;
+    border-radius: 5px;
+    color:#3299a8;
+
+
+}
+.navbar-item-home{
+
+    background-color:#fff ;
+    border-radius: 5px;
+    color:#3299a8;
+    margin-right:60px;
+
+}
+
+.navbar-item-home:hover{
+
+    background-color:black ;
+    
+    color:#fff;
+    
+
+}
