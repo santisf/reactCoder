@@ -2,7 +2,7 @@
   "name": "react-coder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://santisf.github.io/reactCoder/",
+  "homepage": "https://santisf.github.io/reactCoder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
