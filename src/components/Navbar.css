@@ -5,6 +5,7 @@
     
 }
 
+
 .navbar-menu {
 
     display: flex;
@@ -20,17 +21,20 @@
 }
 a{
     padding:0!important;
+    color:#fff!important;
 }
 .navbar-item {
 
     padding: 20px!important;
     cursor: pointer;
     color: #fff!important;
+    background-color:#3299a8!important ;
+    
     
 }
 .navbar-item:hover{
 
-    background-color:#fff ;
+    background-color:#fff!important ;
     border-radius: 5px;
     color:#3299a8!important;
 

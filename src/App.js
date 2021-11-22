@@ -10,8 +10,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <ItemListContainer greeting={"Bienvenidos"}/>
-      <ProductCard/>
-     
+      
     </div>
   );
 }

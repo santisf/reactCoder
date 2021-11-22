@@ -37,8 +37,9 @@ const CountItem = ({stock}) => {
     return (
         <div>
             <div>
-                <h2>{counter}</h2>
+                
                 <Button variant="primary" style={{margin: "20px"}} onClick={decrementar}>-</Button>
+                <strong>{counter}</strong>
                 <Button variant="primary" style={{margin: "20px"}} onClick={incrementar}>+</Button>
             </div> 
             <div>

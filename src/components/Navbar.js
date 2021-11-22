@@ -29,7 +29,7 @@ const NavBar = () => {
             <Nav className="me-auto navbar navbar-menu">
                 <Nav.Link  className="navbar-item navbar-item-home" href="#home">Home</Nav.Link>
                 <Nav.Link className="navbar-item" href="#link">Link</Nav.Link>
-                <NavDropdown title="Dropdown" className="navbar-item" id="basic-nav-dropdown">
+                <NavDropdown title="Productos" id="basic-nav-dropdown">
                 <NavDropdown.Item className="navbar-item" href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item className="navbar-item" href="#action/3.2">Another action</NavDropdown.Item>
                 <NavDropdown.Item className="navbar-item" href="#action/3.3">Something</NavDropdown.Item>
