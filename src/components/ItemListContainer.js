@@ -3,21 +3,14 @@ import './ItemListContainer.css';
 import CountItem from './CountItem';
 import { pedirDatos } from './helpers/pedirDatos';
 import ProductCard from './ProductCard';
-
+import ItemList from './ItemList';
 
 const ItemListContainer = ({greeting}) => {
     
     const [loading, setLoading] = useState(false)
     const [productos, setProductos] = useState([])
     
-   let productosJSX=  productos.map((prod)=>(
-    <ProductCard 
-    title={prod.name} 
-    price={prod.price}
-    desc={prod.desc}
-    img={prod.img}/>
-))
-   console.log(productosJSX);
+   
     useEffect(() => {
        setLoading(true)
 
@@ -43,11 +36,7 @@ const ItemListContainer = ({greeting}) => {
             {
                 loading
                     ? <h2>Cargando..</h2>
-                    :<div className="Container-fluid">
-                        <div className="row">
-                            {productosJSX}
-                       </div>
-                    </div>
+                    : <ItemList productos={productos}/>
             }
           
             
